@@ -1,0 +1,123 @@
+@import url(../fonts/inter/stylesheet.css);
+@import url(../fonts/prata/stylesheet.css);
+
+header{
+    .contact_register{
+        max-width: 1280px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 24px 10px;
+        .content{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .content_contact{
+                max-width: 361px;
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                padding: 0 10px 0 0;
+                @media (max-width: 560px){
+                    display: none;
+                }
+                a{
+                    font-family: 'Inter-reg';
+                    font-style: normal;
+                    font-size: 14px;
+                    line-height: 100%;
+                    color: #303030;
+                    @media (max-width: 768px){
+                        padding: 5px 0
+                    }
+                }
+                img{
+                    padding-right: 10px;
+                }
+            }
+            .content_register{
+                max-width: 329px;
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                padding: 0 10px;
+                flex-wrap: wrap;
+                @media (max-width: 768px){
+                    justify-content: flex-end;
+                }
+                @media (max-width: 560px){
+                    padding: 0 0 0 10px;
+                }
+                p, a{
+                    font-family: 'Inter-reg';
+                    font-size: 14px;
+                    line-height: 100%;
+                    color: #303030;
+                    @media (max-width: 768px){
+                        padding: 5px 5px
+                    }
+                }
+                .icons{
+                    max-width: 116px;
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                }
+            }
+            .logo img{
+                @media (max-width: 560px){
+                    max-width: 120px;
+                }
+            }
+        }
+    }
+    .navbar{
+        max-width: 1280px;
+        width: 100%;
+        margin: 0 auto;
+        background-color: #F0F0F0;
+        padding: 0 10px;
+        .content{
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-around;
+            
+        }
+        nav{
+            max-width: 817px;
+            width: 100%;
+            padding: 24px 10px;
+            @media (max-width: 768px){
+                display: none;
+            }
+            ul{
+                display: flex;
+                justify-content: space-between;
+                a{
+                    font-family: 'Inter-med';
+                    font-style: normal;
+                    font-size: 13px;
+                    line-height: 100%;
+                    text-transform: uppercase;
+                    color: #303030;
+                    transition: 0.3s;
+                    &:hover{
+                        opacity: 0.5;
+                    }
+                }
+
+            }
+        }
+        .search{
+            display: flex;
+            padding: 24px 10px;
+            height: 20px;
+            input{
+                border: none;
+                padding: 3px;
+                margin-left: 5px;
+                background-color: #f0f0f0;
+            }
+        }
+    }
+}

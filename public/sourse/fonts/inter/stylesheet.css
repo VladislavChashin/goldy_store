@@ -1,0 +1,23 @@
+
+@font-face {
+    font-family: 'Inter-reg';
+    src: url('Inter-Regular.woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Inter-bold';
+    src: url('Inter-SemiBold.woff2');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter-med';
+    src: url('Inter-Medium.woff2');
+    font-weight: 500;
+    font-style: normal;
+}
+
