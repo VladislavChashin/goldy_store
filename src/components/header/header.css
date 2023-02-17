@@ -1,12 +1,11 @@
-@import url(../fonts/inter/stylesheet.css);
-@import url(../fonts/prata/stylesheet.css);
-header .contact_register {
+
+.contact_register {
   max-width: 1280px;
   width: 100%;
   margin: 0 auto;
   padding: 24px 10px;
 }
-header .contact_register .content {
+.contact_register .content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -17,7 +16,7 @@ header .contact_register .content {
       -ms-flex-align: center;
           align-items: center;
 }
-header .contact_register .content .content_contact {
+.contact_register .content .content_contact {
   max-width: 361px;
   width: 100%;
   display: -webkit-box;
@@ -31,11 +30,11 @@ header .contact_register .content .content_contact {
   padding: 0 10px 0 0;
 }
 @media (max-width: 560px) {
-  header .contact_register .content .content_contact {
+   .contact_register .content .content_contact {
     display: none;
   }
 }
-header .contact_register .content .content_contact a {
+.contact_register .content .content_contact a {
   font-family: "Inter-reg";
   font-style: normal;
   font-size: 14px;
@@ -43,14 +42,14 @@ header .contact_register .content .content_contact a {
   color: #303030;
 }
 @media (max-width: 768px) {
-  header .contact_register .content .content_contact a {
+   .contact_register .content .content_contact a {
     padding: 5px 0;
   }
 }
-header .contact_register .content .content_contact img {
+.contact_register .content .content_contact img {
   padding-right: 10px;
 }
-header .contact_register .content .content_register {
+.contact_register .content .content_register {
   max-width: 329px;
   width: 100%;
   display: -webkit-box;
@@ -64,29 +63,29 @@ header .contact_register .content .content_register {
       flex-wrap: wrap;
 }
 @media (max-width: 768px) {
-  header .contact_register .content .content_register {
+   .contact_register .content .content_register {
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
   }
 }
 @media (max-width: 560px) {
-  header .contact_register .content .content_register {
+   .contact_register .content .content_register {
     padding: 0 0 0 10px;
   }
 }
-header .contact_register .content .content_register p, header .contact_register .content .content_register a {
+.contact_register .content .content_register p,  .contact_register .content .content_register a {
   font-family: "Inter-reg";
   font-size: 14px;
   line-height: 100%;
   color: #303030;
 }
 @media (max-width: 768px) {
-  header .contact_register .content .content_register p, header .contact_register .content .content_register a {
+   .contact_register .content .content_register p,  .contact_register .content .content_register a {
     padding: 5px 5px;
   }
 }
-header .contact_register .content .content_register .icons {
+.contact_register .content .content_register .icons {
   max-width: 116px;
   width: 100%;
   display: -webkit-box;
@@ -97,18 +96,18 @@ header .contact_register .content .content_register .icons {
           justify-content: space-between;
 }
 @media (max-width: 560px) {
-  header .contact_register .content .logo img {
+   .contact_register .content .logo img {
     max-width: 120px;
   }
 }
-header .navbar {
+.navbar {
   max-width: 1280px;
   width: 100%;
   margin: 0 auto;
   background-color: #F0F0F0;
   padding: 0 10px;
 }
-header .navbar .content {
+.navbar .content {
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -116,17 +115,17 @@ header .navbar .content {
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
-header .navbar nav {
+.navbar nav {
   max-width: 817px;
   width: 100%;
   padding: 24px 10px;
 }
 @media (max-width: 768px) {
-  header .navbar nav {
+   .navbar nav {
     display: none;
   }
 }
-header .navbar nav ul {
+.navbar nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -134,7 +133,7 @@ header .navbar nav ul {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-header .navbar nav ul a {
+.navbar nav ul a {
   font-family: "Inter-med";
   font-style: normal;
   font-size: 13px;
@@ -144,17 +143,17 @@ header .navbar nav ul a {
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
-header .navbar nav ul a:hover {
+.navbar nav ul a:hover {
   opacity: 0.5;
 }
-header .navbar .search {
+.navbar .search {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   padding: 24px 10px;
   height: 20px;
 }
-header .navbar .search input {
+.navbar .search input {
   border: none;
   padding: 3px;
   margin-left: 5px;
