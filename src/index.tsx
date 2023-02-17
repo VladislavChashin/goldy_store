@@ -7,6 +7,7 @@ import './sourse/reset.css'
 import './components/header/header.css';
 import Header from './Header';
 import './components/main/css/slider.css';
+import './components/main/css/popular_cat.css'
 import Main from './Main';
 
 

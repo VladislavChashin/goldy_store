@@ -1,0 +1,75 @@
+.popular{
+    max-width: 1300px;
+    width: 90%;
+    margin: 100px auto;
+    padding: 20px 0 ;
+    @media (max-width: 425px) {
+        margin: 60px auto;
+    }
+    .popular_wrap{
+        h3{
+            font-family: 'Prata';
+            font-size: 40px;
+            line-height: 100%;
+            color: #303030;
+            @media (max-width: 425px) {
+                font-size: 25px;
+            }
+        }
+
+        .cards_wrap{
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 40px 0;
+            margin: 0 auto;
+            @media (max-width: 1024px) {
+                max-width: 768px;
+            }
+            
+            
+            .cards{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                width: 108px;
+                height: 178px;
+                background-color: #F8F8F8;
+                text-align: center;
+                padding: 64px 41px 17px;
+                margin: 10px 5px;
+                transition: .5s;
+                cursor: pointer;
+                &:hover{
+                    scale: 1.07;
+                    box-shadow: 2px 5px 15px 2px #30303061;
+                }
+                p{
+                    font-family: 'Inter-reg';
+                    font-size: 16px;
+                    line-height: 100%;
+                    color: #303030;
+                    @media (max-width: 425px) {
+                        font-size: 12px;
+                    }
+
+                }
+                @media (max-width: 768px) {
+                    height: 150px;
+                    padding: 35px 21px 7px;
+                }
+                @media (max-width: 425px) {
+                    height: 90px;
+                    padding: 15px 11px 5px;
+                }
+                img{
+                    @media (max-width: 425px) {
+                        margin: auto;
+                        height: 45px;
+                    }
+                }
+                
+            }
+        }
+    }
+}

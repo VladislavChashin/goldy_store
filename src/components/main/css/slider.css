@@ -122,6 +122,11 @@
     padding: 0 10px 0 0;
   }
 }
+@media (max-width: 428px) {
+  .slider .slide_icon {
+    margin: 0;
+  }
+}
 .slider .slide_icon:hover {
   scale: 1.12;
 }

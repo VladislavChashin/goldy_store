@@ -1,34 +1,14 @@
 import { useState } from 'react';
-import ring from './img/shop/big-ring.png'
+import { data } from '../data/data_slider';
+import { class_slide_left } from '../data/data_slider';
+import { class_slide_right } from '../data/data_slider';
 import strelka from './img/svg/strelka.svg'
 
 
 export function Slider(){
-  const class_slide_right = ['slider_wrap fade_in_right', 'slider_wrap fade_out_right']
-  const class_slide_left = ['slider_wrap fade_in_left', 'slider_wrap fade_out_left']
   const [activeState, setActiveState] = useState(class_slide_right[0]);
   let [index, setIndex] = useState(0);
 
-  const data = [
-    {
-      id:1,
-      p: 'Супер скидка до 60%',
-      h: 'На бриллианты',
-      img: ring,
-    },
-    {
-      id:2,
-      p: 'Супер скидка до 90%',
-      h: 'На колье',
-      img: ring,
-    },
-    {
-      id:3,
-      p: 'Скидка до 20%',
-      h: 'На браслеты',
-      img: ring,
-    }
-]
 
 
   const handleNext = () => {

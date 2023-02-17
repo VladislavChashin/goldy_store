@@ -1,11 +1,10 @@
-
-.contact_register {
+header .contact_register {
   max-width: 1280px;
   width: 100%;
   margin: 0 auto;
   padding: 24px 10px;
 }
-.contact_register .content {
+header .contact_register .content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -16,7 +15,7 @@
       -ms-flex-align: center;
           align-items: center;
 }
-.contact_register .content .content_contact {
+header .contact_register .content .content_contact {
   max-width: 361px;
   width: 100%;
   display: -webkit-box;
@@ -30,26 +29,31 @@
   padding: 0 10px 0 0;
 }
 @media (max-width: 560px) {
-   .contact_register .content .content_contact {
+  header .contact_register .content .content_contact {
     display: none;
   }
 }
-.contact_register .content .content_contact a {
+header .contact_register .content .content_contact a {
   font-family: "Inter-reg";
   font-style: normal;
   font-size: 14px;
   line-height: 100%;
   color: #303030;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
 }
 @media (max-width: 768px) {
-   .contact_register .content .content_contact a {
+  header .contact_register .content .content_contact a {
     padding: 5px 0;
   }
 }
-.contact_register .content .content_contact img {
+header .contact_register .content .content_contact a:hover {
+  opacity: 0.5;
+}
+header .contact_register .content .content_contact img {
   padding-right: 10px;
 }
-.contact_register .content .content_register {
+header .contact_register .content .content_register {
   max-width: 329px;
   width: 100%;
   display: -webkit-box;
@@ -63,29 +67,34 @@
       flex-wrap: wrap;
 }
 @media (max-width: 768px) {
-   .contact_register .content .content_register {
+  header .contact_register .content .content_register {
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
   }
 }
 @media (max-width: 560px) {
-   .contact_register .content .content_register {
+  header .contact_register .content .content_register {
     padding: 0 0 0 10px;
   }
 }
-.contact_register .content .content_register p,  .contact_register .content .content_register a {
+header .contact_register .content .content_register p, header .contact_register .content .content_register a {
   font-family: "Inter-reg";
   font-size: 14px;
   line-height: 100%;
   color: #303030;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
 }
 @media (max-width: 768px) {
-   .contact_register .content .content_register p,  .contact_register .content .content_register a {
+  header .contact_register .content .content_register p, header .contact_register .content .content_register a {
     padding: 5px 5px;
   }
 }
-.contact_register .content .content_register .icons {
+header .contact_register .content .content_register p a:hover, header .contact_register .content .content_register a a:hover {
+  opacity: 0.5;
+}
+header .contact_register .content .content_register .icons {
   max-width: 116px;
   width: 100%;
   display: -webkit-box;
@@ -95,19 +104,26 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
+header .contact_register .content .content_register .icons img {
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+header .contact_register .content .content_register .icons :hover {
+  scale: 1.13;
+}
 @media (max-width: 560px) {
-   .contact_register .content .logo img {
+  header .contact_register .content .logo img {
     max-width: 120px;
   }
 }
-.navbar {
+header .navbar {
   max-width: 1280px;
   width: 100%;
   margin: 0 auto;
   background-color: #F0F0F0;
   padding: 0 10px;
 }
-.navbar .content {
+header .navbar .content {
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -115,17 +131,17 @@
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
-.navbar nav {
+header .navbar nav {
   max-width: 817px;
   width: 100%;
   padding: 24px 10px;
 }
 @media (max-width: 768px) {
-   .navbar nav {
+  header .navbar nav {
     display: none;
   }
 }
-.navbar nav ul {
+header .navbar nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -133,7 +149,7 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-.navbar nav ul a {
+header .navbar nav ul a {
   font-family: "Inter-med";
   font-style: normal;
   font-size: 13px;
@@ -143,17 +159,17 @@
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
-.navbar nav ul a:hover {
+header .navbar nav ul a:hover {
   opacity: 0.5;
 }
-.navbar .search {
+header .navbar .search {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   padding: 24px 10px;
   height: 20px;
 }
-.navbar .search input {
+header .navbar .search input {
   border: none;
   padding: 3px;
   margin-left: 5px;

@@ -1,0 +1,93 @@
+.popular {
+  max-width: 1300px;
+  width: 90%;
+  margin: 100px auto;
+  padding: 20px 0;
+}
+@media (max-width: 425px) {
+  .popular {
+    margin: 60px auto;
+  }
+}
+.popular .popular_wrap h3 {
+  font-family: "Prata";
+  font-size: 40px;
+  line-height: 100%;
+  color: #303030;
+}
+@media (max-width: 425px) {
+  .popular .popular_wrap h3 {
+    font-size: 25px;
+  }
+}
+.popular .popular_wrap .cards_wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 40px 0;
+  margin: 0 auto;
+}
+@media (max-width: 1024px) {
+  .popular .popular_wrap .cards_wrap {
+    max-width: 768px;
+  }
+}
+.popular .popular_wrap .cards_wrap .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 108px;
+  height: 178px;
+  background-color: #F8F8F8;
+  text-align: center;
+  padding: 64px 41px 17px;
+  margin: 10px 5px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.popular .popular_wrap .cards_wrap .cards:hover {
+  scale: 1.07;
+  -webkit-box-shadow: 2px 5px 15px 2px rgba(48, 48, 48, 0.3803921569);
+          box-shadow: 2px 5px 15px 2px rgba(48, 48, 48, 0.3803921569);
+}
+.popular .popular_wrap .cards_wrap .cards p {
+  font-family: "Inter-reg";
+  font-size: 16px;
+  line-height: 100%;
+  color: #303030;
+}
+@media (max-width: 425px) {
+  .popular .popular_wrap .cards_wrap .cards p {
+    font-size: 12px;
+  }
+}
+@media (max-width: 768px) {
+  .popular .popular_wrap .cards_wrap .cards {
+    height: 150px;
+    padding: 35px 21px 7px;
+  }
+}
+@media (max-width: 425px) {
+  .popular .popular_wrap .cards_wrap .cards {
+    height: 90px;
+    padding: 15px 11px 5px;
+  }
+}
+@media (max-width: 425px) {
+  .popular .popular_wrap .cards_wrap .cards img {
+    margin: auto;
+    height: 45px;
+  }
+}
