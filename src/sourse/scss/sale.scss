@@ -1,0 +1,129 @@
+.sale{
+    width: 100%;
+    .sale_wraper{
+        max-width: 1300px;
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 120px;
+        h3{
+            font-family: 'Prata';
+            font-size: 40px;
+            color: #303030;
+        }
+        .select{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            padding: 24px 0 24px;
+            .menu{
+                max-width: 470px;
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .active{
+                    color: #fff;
+                    background-color: #303030;
+                }
+                p{
+                    font-family: 'Inter-reg';
+                    font-size: 14px;
+                    padding: 13px 30px;
+                    background-color: #F0F0F0;
+                    color: #303030;
+                    border-radius: 21px;
+                    transition: 0.4s;
+                    cursor: pointer;
+                }:hover{
+                    color: #fff;
+                    background-color: #303030;
+                }
+            }
+            .menu_button{
+                img{
+                    padding: 5px 4px;
+                    transition: 0.4s;
+                    cursor: pointer;
+                }:hover{
+                    opacity: .5;
+                    scale: 1.05;
+                }
+                img:nth-child(2){
+                    transform: rotate(180deg);
+                }
+            }
+        }
+        .product_sale{
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+            .product{
+                padding: 16px 24px 26px;
+                max-width: 260px;
+                border: 1px solid #F0F0F0;
+                transition: .5s;
+                &:hover{
+                    scale: 1.03;
+                    box-shadow: 2px 1px 5px 1px #0000003a;
+                }
+                .top_info{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: flex-start;
+                    p{
+                        font-family: 'Inter-med';
+                        font-size: 13px;
+                        color: #FFFFFF;
+                        background: #5B8A8F;
+                        border-radius: 15px;
+                        padding: 4px 11px;
+
+                    }
+                    span{
+                        display: flex;
+                        flex-direction: column-reverse;
+                    }
+                }
+                .image{
+                    text-align: center;
+                }
+                .bottom_info{
+                    display: flex;
+                    flex-direction: column;
+                    .price{
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        p{
+                            font-family: 'Inter-bold';
+                            font-size: 18px;
+                            color: #303030;
+
+                        }
+                        s{
+                            font-family: 'Inter-reg';
+                            font-size: 14px;
+                            color: #8F8F8F;
+                        }
+                        span{
+                            font-family: 'Inter-med';
+                            font-size: 13px;
+                            color: #FFFFFF;
+                            background: #E24B33;
+                            border-radius: 15px;
+                            padding: 4px 11px;
+                        }
+                    }
+                    p{
+                        font-family: 'Inter-reg';
+                        font-size: 14px;
+                        line-height: 160%;
+                        color: #303030;
+                    }
+                }
+            }
+        }
+    }
+}

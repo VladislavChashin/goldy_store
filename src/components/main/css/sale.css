@@ -1,0 +1,173 @@
+.sale {
+  width: 100%;
+}
+.sale .sale_wraper {
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-bottom: 120px;
+}
+.sale .sale_wraper h3 {
+  font-family: "Prata";
+  font-size: 40px;
+  color: #303030;
+}
+.sale .sale_wraper .select {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 24px 0 24px;
+}
+.sale .sale_wraper .select .menu {
+  max-width: 470px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.sale .sale_wraper .select .menu .active {
+  color: #fff;
+  background-color: #303030;
+}
+.sale .sale_wraper .select .menu p {
+  font-family: "Inter-reg";
+  font-size: 14px;
+  padding: 13px 30px;
+  background-color: #F0F0F0;
+  color: #303030;
+  border-radius: 21px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  cursor: pointer;
+}
+.sale .sale_wraper .select .menu :hover {
+  color: #fff;
+  background-color: #303030;
+}
+.sale .sale_wraper .select .menu_button img {
+  padding: 5px 4px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  cursor: pointer;
+}
+.sale .sale_wraper .select .menu_button :hover {
+  opacity: 0.5;
+  scale: 1.05;
+}
+.sale .sale_wraper .select .menu_button img:nth-child(2) {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+.sale .sale_wraper .product_sale {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.sale .sale_wraper .product_sale .product {
+  padding: 16px 24px 26px;
+  max-width: 260px;
+  border: 1px solid #F0F0F0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.sale .sale_wraper .product_sale .product:hover {
+  scale: 1.03;
+  -webkit-box-shadow: 2px 1px 5px 1px rgba(0, 0, 0, 0.2274509804);
+          box-shadow: 2px 1px 5px 1px rgba(0, 0, 0, 0.2274509804);
+}
+.sale .sale_wraper .product_sale .product .top_info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+.sale .sale_wraper .product_sale .product .top_info p {
+  font-family: "Inter-med";
+  font-size: 13px;
+  color: #FFFFFF;
+  background: #5B8A8F;
+  border-radius: 15px;
+  padding: 4px 11px;
+}
+.sale .sale_wraper .product_sale .product .top_info span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+}
+.sale .sale_wraper .product_sale .product .image {
+  text-align: center;
+}
+.sale .sale_wraper .product_sale .product .bottom_info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.sale .sale_wraper .product_sale .product .bottom_info .price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.sale .sale_wraper .product_sale .product .bottom_info .price p {
+  font-family: "Inter-bold";
+  font-size: 18px;
+  color: #303030;
+}
+.sale .sale_wraper .product_sale .product .bottom_info .price s {
+  font-family: "Inter-reg";
+  font-size: 14px;
+  color: #8F8F8F;
+}
+.sale .sale_wraper .product_sale .product .bottom_info .price span {
+  font-family: "Inter-med";
+  font-size: 13px;
+  color: #FFFFFF;
+  background: #E24B33;
+  border-radius: 15px;
+  padding: 4px 11px;
+}
+.sale .sale_wraper .product_sale .product .bottom_info p {
+  font-family: "Inter-reg";
+  font-size: 14px;
+  line-height: 160%;
+  color: #303030;
+}
