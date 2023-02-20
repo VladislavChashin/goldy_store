@@ -32,9 +32,9 @@ export const product:IProduct[] = [
     {
         id:4,
         images: ring_four,
-        sale: false,
+        sale: true,
         price: 34000,
-        prevusePrise: '',
-        numSale: '',
+        prevusePrise: '53000',
+        numSale: '32',
     },
 ]
