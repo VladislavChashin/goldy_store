@@ -103,6 +103,22 @@ header .contact_register .content .content_register .icons {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  position: relative;
+}
+header .contact_register .content .content_register .icons span {
+  position: absolute;
+  background-color: #E46942;
+  display: inline-block;
+  text-align: center;
+  color: #fff;
+  width: 19px;
+  height: 19px;
+  border-radius: 100%;
+  font-family: "Inter-bold";
+  font-size: 10px;
+  line-height: 19px;
+  left: 12px;
+  bottom: 10px;
 }
 header .contact_register .content .content_register .icons img {
   -webkit-transition: 0.6s;

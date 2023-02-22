@@ -19,7 +19,7 @@ export function Register(){
                 <div className="content_register">
                     <p><a href="">Вход</a> | <a href="">Регистрация</a></p>
                     <div className="icons">
-                        <a href=""><img src={favorite} alt=""/></a>
+                        <a href=""><img src={favorite} alt=""/> <span>0</span></a>
                         <a href=""><img src={chart} alt=""/></a>
                         <a href=""><img src={bag} alt=""/></a>
                     </div>
