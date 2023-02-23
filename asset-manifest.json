@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/goldy_store/static/css/main.1817514b.css",
-    "main.js": "/goldy_store/static/js/main.8ca80be3.js",
+    "main.css": "/goldy_store/static/css/main.4bd18a8b.css",
+    "main.js": "/goldy_store/static/js/main.5c350a9a.js",
     "static/js/787.e9a3519d.chunk.js": "/goldy_store/static/js/787.e9a3519d.chunk.js",
     "static/media/big-ring.png": "/goldy_store/static/media/big-ring.24577535d6650653c842.png",
+    "static/media/big-ring_briliant.png": "/goldy_store/static/media/big-ring_briliant.9d7d3a671decb15ef913.png",
     "static/media/Inter-SemiBold.woff2": "/goldy_store/static/media/Inter-SemiBold.90f5c90fdecd8895f496.woff2",
     "static/media/Inter-Medium.woff2": "/goldy_store/static/media/Inter-Medium.01f03178adde434fc9fa.woff2",
     "static/media/Inter-Regular.woff2": "/goldy_store/static/media/Inter-Regular.bd097ceff83f90802a12.woff2",
@@ -20,21 +21,24 @@
     "static/media/braslets.png": "/goldy_store/static/media/braslets.9f068be4d423fce68a20.png",
     "static/media/necklaces.png": "/goldy_store/static/media/necklaces.131cc50fc9eade234704.png",
     "static/media/favorite.svg": "/goldy_store/static/media/favorite.a179664699ea62ed7ea719c35978fa39.svg",
+    "static/media/share-one.svg": "/goldy_store/static/media/share-one.0f89df1c77221fe22a746b51cc25e9db.svg",
     "static/media/eyes.svg": "/goldy_store/static/media/eyes.97b086c94fdd692c497cdbe630a93c02.svg",
     "index.html": "/goldy_store/index.html",
     "static/media/phone.svg": "/goldy_store/static/media/phone.41a768e0b8c0eda3d97e1374f0d3fd60.svg",
     "static/media/strelka.svg": "/goldy_store/static/media/strelka.b4d10c21f3425e400cbc2da92cccef66.svg",
     "static/media/map.svg": "/goldy_store/static/media/map.ebd7918d5754f4cb977ddfd9f5496071.svg",
+    "static/media/heart_fill_ol.svg": "/goldy_store/static/media/heart_fill_ol.d3bd71f3d18a0ab16ef3baeff4dbdec7.svg",
     "static/media/search.svg": "/goldy_store/static/media/search.a8437b6fb2d6ed950c0297f7e81994f6.svg",
     "static/media/bag.svg": "/goldy_store/static/media/bag.b1bfd5fd594890f4cef847c96a757e7a.svg",
     "static/media/heart_fill.svg": "/goldy_store/static/media/heart_fill.bf92f551b9e7d6ae0c8bf76b8220f181.svg",
     "static/media/chart.svg": "/goldy_store/static/media/chart.26ca8a18192aab7d7a2a3270f1961c0d.svg",
-    "main.1817514b.css.map": "/goldy_store/static/css/main.1817514b.css.map",
-    "main.8ca80be3.js.map": "/goldy_store/static/js/main.8ca80be3.js.map",
+    "static/media/star.svg": "/goldy_store/static/media/star.a6020c2e68a8a03b7e427f6132e76b81.svg",
+    "main.4bd18a8b.css.map": "/goldy_store/static/css/main.4bd18a8b.css.map",
+    "main.5c350a9a.js.map": "/goldy_store/static/js/main.5c350a9a.js.map",
     "787.e9a3519d.chunk.js.map": "/goldy_store/static/js/787.e9a3519d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1817514b.css",
-    "static/js/main.8ca80be3.js"
+    "static/css/main.4bd18a8b.css",
+    "static/js/main.5c350a9a.js"
   ]
 }
