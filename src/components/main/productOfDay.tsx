@@ -3,8 +3,57 @@ import star from './img/svg/star.svg'
 import chart from './img/svg/chart.svg'
 import heart_fill from './img/svg/heart_fill.svg'
 import share_one from './img/svg/share-one.svg'
+import { useState, useEffect } from 'react'
+import { time } from 'console'
+
+
+function Timer(){
+    const [hours, setHours] = useState(12)
+    const [minutes, setMinutes] = useState(30)
+    const [seconds, setSeconds] = useState(20)
+
+    const timeId:any = setInterval(() =>{
+        if (seconds === 0 ){
+            if (minutes === 0){ 
+                if(hours === 0){
+                    return clearInterval(timeId);
+                }else{
+                    setHours(hours - 1)
+                    setMinutes(59)
+                }
+            }else{
+                setMinutes(minutes - 1)
+                setSeconds(59)
+            }
+        }else{
+            setSeconds(seconds - 1)
+        }
+        
+        return clearInterval(timeId)
+    }, 1000)
+    return(
+            <div className="timer">
+                <div className="time hour">
+                    <p>{hours}</p>
+                    <p>часов</p>
+                </div>
+                <p>:</p>
+                <div className="time minets">
+                    <p>{minutes}</p>
+                    <p>минут</p>
+                </div>
+                <p>:</p>
+                <div className="time second">
+                    <p>{seconds}</p>
+                    <p>секунд </p>
+                </div>
+            </div>
+    )
+}
 
 export function ProductOfDay(){
+    
+
     return(
         <div className="productday">
             <div className="productday_wrap">
@@ -28,22 +77,7 @@ export function ProductOfDay(){
                                     <p>22000 ₽ <s>60000 ₽</s></p>
                                     <span>-45%</span>
                                 </div>
-                                <div className="timer">
-                                    <div className="time hour">
-                                        <p>12</p>
-                                        <p>часов</p>
-                                    </div>
-                                    <p>:</p>
-                                    <div className="time minets">
-                                        <p>46</p>
-                                        <p>минут</p>
-                                    </div>
-                                    <p>:</p>
-                                    <div className="time second">
-                                        <p>51</p>
-                                        <p>секунд </p>
-                                    </div>
-                                </div>
+                                <Timer/>
                             </div>
                         </div>
                         <div className="interactions">
