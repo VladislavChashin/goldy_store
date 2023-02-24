@@ -1,0 +1,236 @@
+.productday{
+    width: 100%;
+    padding: 100px 0;
+    .productday_wrap{
+        max-width: 1300px;
+        width: 100%;
+        margin: 0 auto;
+        h3{
+            font-family: 'Prata'; 
+            font-size: 40px;
+            color: #303030;      
+            padding: 30px 0;      
+        }
+        .content{
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+            .content_image{
+                span{
+                    font-family: 'Inter-med';
+                    font-size: 13px;
+                    line-height: 100%;    
+                    color: #FFFFFF;
+                    padding: 4px 10px;
+                    vertical-align: super;
+                    background-color: #495159;
+                    border-radius: 15px;
+                    margin: 0 2px;
+                }:nth-child(2){
+                    background-color: #E1A661;
+                }:nth-child(3){
+                    background-color: #5B8A8F;
+                }
+                img{
+
+                }
+            }
+            .content_text{
+                max-width: 575px;
+                width: 100%;
+                
+                .text_info{
+                    border-bottom: 1px solid #F0F0F0;
+                    padding-bottom: 20px;
+                    .star{}
+                    h2{
+                        font-family: 'Prata';
+                        font-size: 32px;
+                        line-height: 100%;
+                        color: #303030;   
+                        padding: 24px 0 18px;
+                    }
+                    p{
+                        font-family: 'Inter-reg';
+                        font-size: 14px;
+                        color: #8F8F8F;
+                        padding: 2px 0;
+                        
+                    }
+                    .priceTimer{
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        max-width: 505px;
+                        .price{
+                            display: flex;
+                            align-items: baseline;
+                            p{
+                                font-family: 'Inter-bold';
+                                font-size: 20px;
+                                color: #303030;
+                                padding: 34px 16px 20px 0;
+                                s{
+                                    font-family: 'Inter-reg';
+                                    font-size: 16px;
+                                    color: #8F8F8F;
+                                    padding-left: 15px;
+                                }
+                            }
+                            span{
+                                font-family: 'Inter-med';
+                                font-size: 13px;
+                                line-height: 100%;    
+                                color: #FFFFFF;
+                                padding: 4px 8px;
+                                background-color: #E24B33;
+                                border-radius: 15px;
+                                vertical-align: middle;
+                            }
+                            
+                        }
+                        .timer{
+                            display: flex;
+                            max-width: 210px;
+                            padding: 12px 14px;
+                            width: 100%;
+                            align-items: center;
+                            background-color: #F5F5F5;
+                            justify-content: space-between;
+                            .time{
+                                padding: 6px 10px;
+                                text-align: center;
+                                background: #FFFFFF;
+                                border: 1px solid #D0D0D0;
+                                p{
+                                    font-family: 'Inter-bold';
+                                    font-size: 16px;
+                                    color: #303030;
+                                }:nth-child(2){
+                                    font-family: 'Inter-reg';
+                                    font-size: 11px;
+                                    color: #303030;
+                                }
+                            }
+                            
+                        }
+                    }
+                }
+                .interactions{
+                    padding: 30px 0 0;
+                    .color{
+                        p{
+                            font-family: 'Inter-bold';
+                            font-size: 12px;
+                            text-transform: uppercase;
+                            color: #303030;       
+                            margin: 0 0 20px;                    
+                        }
+                        span{
+                            width: 24px;
+                            height: 24px;
+                            padding: 4px;
+                            border: 1px solid #DADADA;
+                            background-clip: content-box;
+                            background-color: #D9D9D9;
+                            border-radius: 100%;
+                            display: inline-block;
+                            margin: 0 12px 0 0;
+                            transition: .5s;
+                            cursor: pointer;
+                            &:hover{
+                                background-clip: border-box;
+                            }
+                        }:nth-child(2){
+                            background-color: #F1CB7E;
+                        }:nth-child(3){
+                            background-color: #EA8C48;
+                        }:nth-child(4){
+                            background-color: #A7E492;
+                        }
+                    }
+                    .size{
+                        p{
+                            font-family: 'Inter-bold';
+                            font-size: 12px;
+                            text-transform: uppercase;
+                            color: #303030;
+                            margin: 30px 0 20px;           
+                        }
+                        span{
+                            display: inline-block;
+                            border: 1px solid #303030;
+                            padding-top: 9px;
+                            text-align: center; 
+                            margin-right: 8px;
+                            width: 50px;
+                            height: 23px;
+                            transition: .5s;
+                            cursor: pointer;
+                            &:hover{
+                                background-color: #303030;
+                                color: #F0F0F0;
+                            }
+                        }
+                    }
+                    .pay{
+                        display: flex;
+                        justify-content: space-between;
+                        padding-top: 40px;
+                        .buttons{
+                            display: flex;
+                            flex-direction: column;
+                            button{
+                                font-family: 'Inter-med';
+                                font-size: 14px;
+                                text-transform: uppercase;
+                                color: #FFFFFF;
+                                padding: 21px 0;
+                                width: 400px;
+                                margin: 5px 0;
+                                background-color: #303030;
+                                border: none;
+                                transition: .5s;
+                            }:hover{
+                                background-color: #505050;
+                            }
+                        }
+                        p{
+                            font-family: 'Inter-reg';
+                            font-weight: 300;
+                            font-size: 14px;
+                            color: #303030;
+                        }
+                        .interfer{
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-evenly;
+                            transition: .5s;
+                            .wrap{
+                                display: flex;
+                                align-items: center;
+                                cursor: pointer;
+                                &:hover{
+                                    p{
+                                        color: #000000;
+                                    }
+                                    img{
+                                        scale: 1.2;
+                                    }
+                                }
+                                p{
+                                    font-family: 'Inter-reg';
+                                    font-style: normal;
+                                    font-weight: 300;
+                                    font-size: 14px;
+                                    color: #303030;
+                                    margin-left: 10px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

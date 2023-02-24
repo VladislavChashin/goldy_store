@@ -1,0 +1,165 @@
+@keyframes fadeIn {
+    0% {
+        opacity:0;
+        transform: translateX(-3000px);
+    }
+    100% {opacity:1;
+        transform: translateX(0px);}
+  }
+  @keyframes fadeOut {
+    0% {
+        opacity:1;
+        transform: translateX(0px);
+    }
+    100% {opacity:0;
+        transform: translateX(3000px);}
+  }
+  @keyframes fadeInLeft {
+    0% {
+        opacity:0;
+        transform: translateX(3000px);
+    }
+    100% {opacity:1;
+        transform: translateX(0px);}
+  }
+  @keyframes fadeOutLeft {
+    0% {
+        opacity:1;
+        transform: translateX(0px);
+    }
+    100% {opacity:0;
+        transform: translateX(-3000px);}
+  }
+
+.slider{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+    background-color: #F8F8F8;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    
+    .slide_icon {
+        margin: 0 40px 0 0;
+        cursor: pointer;
+        position: relative;
+        z-index: 50;
+        transition: .5s;
+        @media (max-width: 768px) {
+            width: 40px;
+            padding: 0 10px 0 0;
+        }
+        &:hover{
+            scale: 1.12;
+        }
+    }
+    .right {
+        margin: 0;
+        transform: rotate(180deg);
+    }
+    .fade_in_right{
+        animation: fadeIn ease 2s;
+    }
+    .fade_out_right{
+        animation: fadeOut ease 2s;
+    }
+    .fade_in_left{
+        animation: fadeInLeft ease 2s;
+    }
+    .fade_out_left{
+        animation: fadeOutLeft ease 2s;
+    }
+    .slider_wrap{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        @media (max-width: 425px) {
+            justify-content: center;
+        }
+        .slider_text {
+            height: 208px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: flex-start;
+            @media (max-width: 768px) {
+                height: 150px;
+                position: relative;
+                padding: 55px 5px;
+                z-index: 22;
+                background-color: #ffffff12;
+                backdrop-filter: blur(3px);
+                border-radius: 20px;
+            }
+            p{
+                font-family: 'Prata';
+                font-size: 20px;
+                line-height: 100%;
+                color: #303030;
+                @media (max-width: 1024px) {
+                    font-size: 17px;
+                }
+            }
+            h2{
+                font-family: 'Prata';
+                font-size: 50px;
+                line-height: 100%;
+                color: #303030;
+                text-transform: uppercase;
+                @media (max-width: 1024px) {
+                    font-size: 40px;
+                }
+                @media (max-width: 768px) {
+                    font-size: 25px;
+                }
+                @media (max-width: 425px) {
+                    font-size: 20px;
+                }
+            }
+            button{
+                padding: 20px 56px;
+                color: #FFFFFF;
+                text-transform: uppercase;
+                background-color: #303030;
+                border: none;
+                transition: .5s;
+                @media (max-width: 768px) {
+                    padding: 10px 36px;
+                }
+                @media (max-width: 425px) {
+                    font-size: 13px;
+                }
+                &:hover{
+                    scale: 1.1;
+                    background-color: #000000;
+                }
+            }
+       }
+        .slider_img{
+            img{
+                width: 90%;
+                @media (max-width: 768px) {
+                    width: 200px;
+                    position: absolute;
+                    z-index: 1;
+                    top: 30px;
+                    right: 10px;
+                }
+            }
+            padding: 5px;
+            @media (max-width: 768px) {
+                position: relative;
+                width: 0px;
+                padding: 0px;
+                height: 300px;
+            }
+            @media (max-width: 425px) {
+                display: none;
+            }
+        }
+    }
+}
