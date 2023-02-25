@@ -6,12 +6,18 @@
   max-width: 1300px;
   width: 100%;
   margin: 0 auto;
+  padding-left: 5px;
 }
 .productday .productday_wrap h3 {
   font-family: "Prata";
   font-size: 40px;
   color: #303030;
   padding: 30px 0;
+}
+@media (max-width: 425px) {
+  .productday .productday_wrap h3 {
+    font-size: 25px;
+  }
 }
 .productday .productday_wrap .content {
   display: -webkit-box;
@@ -21,6 +27,16 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+@media (max-width: 1088px) {
+  .productday .productday_wrap .content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    max-width: 768px;
+    margin: 0 auto;
+  }
 }
 .productday .productday_wrap .content .content_image span {
   font-family: "Inter-med";
@@ -33,15 +49,47 @@
   border-radius: 15px;
   margin: 0 2px;
 }
+@media (max-width: 425px) {
+  .productday .productday_wrap .content .content_image span {
+    padding: 2px 5px;
+    font-size: 10px;
+  }
+}
 .productday .productday_wrap .content .content_image :nth-child(2) {
   background-color: #E1A661;
 }
 .productday .productday_wrap .content .content_image :nth-child(3) {
   background-color: #5B8A8F;
 }
+@media (max-width: 1088px) {
+  .productday .productday_wrap .content .content_image .image {
+    margin: 0 auto;
+    max-width: 425px;
+  }
+}
+@media (max-width: 425px) {
+  .productday .productday_wrap .content .content_image .image {
+    max-width: 315px;
+  }
+}
+@media (max-width: 1088px) {
+  .productday .productday_wrap .content .content_image .image img {
+    max-width: 325px;
+  }
+}
+@media (max-width: 425px) {
+  .productday .productday_wrap .content .content_image .image img {
+    max-width: 315px;
+  }
+}
 .productday .productday_wrap .content .content_text {
   max-width: 575px;
   width: 100%;
+}
+@media (max-width: 1088px) {
+  .productday .productday_wrap .content .content_text {
+    max-width: 100%;
+  }
 }
 .productday .productday_wrap .content .content_text .text_info {
   border-bottom: 1px solid #F0F0F0;
@@ -53,6 +101,16 @@
   line-height: 100%;
   color: #303030;
   padding: 24px 0 18px;
+}
+@media (max-width: 553px) {
+  .productday .productday_wrap .content .content_text .text_info h2 {
+    font-size: 25px;
+  }
+}
+@media (max-width: 425px) {
+  .productday .productday_wrap .content .content_text .text_info h2 {
+    font-size: 20px;
+  }
 }
 .productday .productday_wrap .content .content_text .text_info p {
   font-family: "Inter-reg";
@@ -86,11 +144,27 @@
   color: #303030;
   padding: 34px 16px 20px 0;
 }
+@media (max-width: 425px) {
+  .productday .productday_wrap .content .content_text .text_info .priceTimer .price p {
+    padding: 30px 0 15px 0;
+    max-width: 110px;
+  }
+}
+@media (max-width: 425px) {
+  .productday .productday_wrap .content .content_text .text_info .priceTimer .price p {
+    font-size: 15px;
+  }
+}
 .productday .productday_wrap .content .content_text .text_info .priceTimer .price p s {
   font-family: "Inter-reg";
   font-size: 16px;
   color: #8F8F8F;
   padding-left: 15px;
+}
+@media (max-width: 425px) {
+  .productday .productday_wrap .content .content_text .text_info .priceTimer .price p s {
+    font-size: 13px;
+  }
 }
 .productday .productday_wrap .content .content_text .text_info .priceTimer .price span {
   font-family: "Inter-med";
@@ -101,6 +175,11 @@
   background-color: #E24B33;
   border-radius: 15px;
   vertical-align: middle;
+}
+@media (max-width: 425px) {
+  .productday .productday_wrap .content .content_text .text_info .priceTimer .price span {
+    font-size: 10px;
+  }
 }
 .productday .productday_wrap .content .content_text .text_info .priceTimer .timer {
   display: -webkit-box;
@@ -117,16 +196,36 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
+@media (max-width: 553px) {
+  .productday .productday_wrap .content .content_text .text_info .priceTimer .timer {
+    padding: 5px 8px;
+  }
+}
+@media (max-width: 425px) {
+  .productday .productday_wrap .content .content_text .text_info .priceTimer .timer {
+    max-width: 160px;
+  }
+}
 .productday .productday_wrap .content .content_text .text_info .priceTimer .timer .time {
   padding: 6px 10px;
   text-align: center;
   background: #FFFFFF;
   border: 1px solid #D0D0D0;
 }
+@media (max-width: 425px) {
+  .productday .productday_wrap .content .content_text .text_info .priceTimer .timer .time {
+    padding: 3px 5px;
+  }
+}
 .productday .productday_wrap .content .content_text .text_info .priceTimer .timer .time p {
   font-family: "Inter-bold";
   font-size: 16px;
   color: #303030;
+}
+@media (max-width: 425px) {
+  .productday .productday_wrap .content .content_text .text_info .priceTimer .timer .time p {
+    font-size: 14px;
+  }
 }
 .productday .productday_wrap .content .content_text .text_info .priceTimer .timer .time :nth-child(2) {
   font-family: "Inter-reg";
@@ -222,6 +321,17 @@
   border: none;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+}
+@media (max-width: 553px) {
+  .productday .productday_wrap .content .content_text .interactions .pay .buttons button {
+    max-width: 300px;
+  }
+}
+@media (max-width: 425px) {
+  .productday .productday_wrap .content .content_text .interactions .pay .buttons button {
+    padding: 13px 0;
+    max-width: 200px;
+  }
 }
 .productday .productday_wrap .content .content_text .interactions .pay .buttons :hover {
   background-color: #505050;

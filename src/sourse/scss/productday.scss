@@ -5,16 +5,26 @@
         max-width: 1300px;
         width: 100%;
         margin: 0 auto;
+        padding-left: 5px;
+        
         h3{
             font-family: 'Prata'; 
             font-size: 40px;
             color: #303030;      
             padding: 30px 0;      
+            @media(max-width: 425px){
+                font-size: 25px;          
+            }
         }
         .content{
             display: flex;
             width: 100%;
             justify-content: space-between;
+            @media(max-width: 1088px){
+                flex-direction:column;
+                max-width: 768px;
+                margin: 0 auto;
+            }
             .content_image{
                 span{
                     font-family: 'Inter-med';
@@ -26,18 +36,40 @@
                     background-color: #495159;
                     border-radius: 15px;
                     margin: 0 2px;
+                    @media(max-width: 425px){
+                        padding: 2px 5px;    
+                        font-size:10px
+                    }
                 }:nth-child(2){
                     background-color: #E1A661;
                 }:nth-child(3){
                     background-color: #5B8A8F;
                 }
-                img{
+                .image{
+                    @media(max-width: 1088px){
+                        margin: 0 auto;
+                        max-width: 425px;
+                    }
+                    @media(max-width: 425px){
+                        max-width: 315px;      
+                    }
+                    img{
+                        @media(max-width: 1088px){
+                            max-width: 325px;
+                        }
+                        @media(max-width: 425px){
+                            max-width: 315px;   
+                        }
 
+                    }
                 }
             }
             .content_text{
                 max-width: 575px;
                 width: 100%;
+                @media(max-width: 1088px){
+                        max-width: 100%;
+                    }
                 
                 .text_info{
                     border-bottom: 1px solid #F0F0F0;
@@ -49,6 +81,12 @@
                         line-height: 100%;
                         color: #303030;   
                         padding: 24px 0 18px;
+                        @media(max-width: 553px){
+                            font-size:25px
+                        }
+                        @media(max-width: 425px){
+                            font-size: 20px;
+                        }
                     }
                     p{
                         font-family: 'Inter-reg';
@@ -70,11 +108,21 @@
                                 font-size: 20px;
                                 color: #303030;
                                 padding: 34px 16px 20px 0;
+                                @media(max-width: 425px){
+                                    padding: 30px 0 15px 0;
+                                    max-width: 110px;
+                                }
+                                @media(max-width: 425px){
+                                    font-size: 15px;
+                                }
                                 s{
                                     font-family: 'Inter-reg';
                                     font-size: 16px;
                                     color: #8F8F8F;
                                     padding-left: 15px;
+                                    @media(max-width: 425px){
+                                        font-size: 13px;
+                                    }
                                 }
                             }
                             span{
@@ -86,6 +134,9 @@
                                 background-color: #E24B33;
                                 border-radius: 15px;
                                 vertical-align: middle;
+                                @media(max-width: 425px){
+                                    font-size: 10px;
+                                }
                             }
                             
                         }
@@ -97,15 +148,27 @@
                             align-items: center;
                             background-color: #F5F5F5;
                             justify-content: space-between;
+                            @media(max-width: 553px){
+                                padding: 5px 8px;
+                            }
+                            @media(max-width: 425px){
+                                max-width: 160px;
+                            }
                             .time{
                                 padding: 6px 10px;
                                 text-align: center;
                                 background: #FFFFFF;
                                 border: 1px solid #D0D0D0;
+                                @media(max-width: 425px){
+                                    padding: 3px 5px;
+                                }
                                 p{
                                     font-family: 'Inter-bold';
                                     font-size: 16px;
                                     color: #303030;
+                                    @media(max-width: 425px){
+                                        font-size: 14px;
+                                    }
                                 }:nth-child(2){
                                     font-family: 'Inter-reg';
                                     font-size: 11px;
@@ -180,6 +243,7 @@
                         .buttons{
                             display: flex;
                             flex-direction: column;
+                            
                             button{
                                 font-family: 'Inter-med';
                                 font-size: 14px;
@@ -191,6 +255,13 @@
                                 background-color: #303030;
                                 border: none;
                                 transition: .5s;
+                                @media(max-width: 553px){
+                                    max-width: 300px ;
+                                }
+                                @media(max-width: 425px){
+                                    padding: 13px 0;
+                                    max-width: 200px;
+                                }
                             }:hover{
                                 background-color: #505050;
                             }

@@ -8,8 +8,8 @@ import { time } from 'console'
 
 
 function Timer(){
-    const [hours, setHours] = useState(12)
-    const [minutes, setMinutes] = useState(30)
+    const [hours, setHours] = useState(10)
+    const [minutes, setMinutes] = useState(34)
     const [seconds, setSeconds] = useState(20)
 
     const timeId:any = setInterval(() =>{

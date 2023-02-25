@@ -4,7 +4,7 @@ import heart_fill from './img/svg/heart_fill.svg'
 import heart_fill_ol from './img/svg/heart_fill_ol.svg'
 import { product } from '../data/data_productSale'
 import { IProduct } from '../data/model'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 
 
 interface ProductProps{
@@ -13,11 +13,30 @@ interface ProductProps{
 
 function Product({productSale}: ProductProps){
     const [image, setImage] = useState(false)
+    const [count, setCount] = useState(0)
+   
+        const ount = ()=>{
+            setImage(prev => !prev)
+            if (image){
+                setCount(count + 1)
+                console.log(count)
+            }else{
+                setCount(count + 1)
+                console.log(count)
+            }
+        }
+
+    
+        
+        
+            
+        
+    
     
     return(
         <div className="product">
             <div className="top_info">
-            {productSale.sale ? <p>sale</p> : <span></span>} <span><img src={eyes} alt="" /><img onClick={()=>{setImage(prev => !prev)}} src={image ? heart_fill_ol: heart_fill} alt="" /></span>
+            {productSale.sale ? <p>sale</p> : <span></span>} <span><img src={eyes} alt="" /><img onClick={()=>{ount()}} src={image ? heart_fill_ol: heart_fill} alt="" /></span>
             </div> 
             <div className="image">
                 <img src={productSale.images} alt="" />
@@ -35,8 +54,6 @@ function Product({productSale}: ProductProps){
 
 export function Sale(){
     let [count, setCount] = useState(1)
-
-
 
     return(
         <div className="sale">
