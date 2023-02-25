@@ -1,13 +1,17 @@
 {
   "files": {
-    "main.css": "/goldy_store/static/css/main.f3729f0d.css",
-    "main.js": "/goldy_store/static/js/main.f0b6f0fa.js",
+    "main.css": "/goldy_store/static/css/main.69a5209b.css",
+    "main.js": "/goldy_store/static/js/main.80b45851.js",
     "static/js/787.e9a3519d.chunk.js": "/goldy_store/static/js/787.e9a3519d.chunk.js",
     "static/media/big-ring.png": "/goldy_store/static/media/big-ring.24577535d6650653c842.png",
     "static/media/big-ring_briliant.png": "/goldy_store/static/media/big-ring_briliant.9d7d3a671decb15ef913.png",
+    "static/media/woman_kolie.jpg": "/goldy_store/static/media/woman_kolie.7db5f77bdff3a288f5c3.jpg",
     "static/media/Inter-SemiBold.woff2": "/goldy_store/static/media/Inter-SemiBold.90f5c90fdecd8895f496.woff2",
     "static/media/Inter-Medium.woff2": "/goldy_store/static/media/Inter-Medium.01f03178adde434fc9fa.woff2",
+    "static/media/kolie_two.jpg": "/goldy_store/static/media/kolie_two.0ab8710fa264bb432b32.jpg",
+    "static/media/ring.jpg": "/goldy_store/static/media/ring.8878d1f0930bb1af10fb.jpg",
     "static/media/Inter-Regular.woff2": "/goldy_store/static/media/Inter-Regular.bd097ceff83f90802a12.woff2",
+    "static/media/kolie.jpg": "/goldy_store/static/media/kolie.f281b66787d6b12243c3.jpg",
     "static/media/Prata-Regular.woff2": "/goldy_store/static/media/Prata-Regular.6a0da7f23c04e031a909.woff2",
     "static/media/ring-thre.png": "/goldy_store/static/media/ring-thre.dcf1a5f300a6092e92a7.png",
     "static/media/ring-four.png": "/goldy_store/static/media/ring-four.b6e7eaf16c481a8b9b7a.png",
@@ -33,12 +37,12 @@
     "static/media/heart_fill.svg": "/goldy_store/static/media/heart_fill.bf92f551b9e7d6ae0c8bf76b8220f181.svg",
     "static/media/chart.svg": "/goldy_store/static/media/chart.26ca8a18192aab7d7a2a3270f1961c0d.svg",
     "static/media/star.svg": "/goldy_store/static/media/star.a6020c2e68a8a03b7e427f6132e76b81.svg",
-    "main.f3729f0d.css.map": "/goldy_store/static/css/main.f3729f0d.css.map",
-    "main.f0b6f0fa.js.map": "/goldy_store/static/js/main.f0b6f0fa.js.map",
+    "main.69a5209b.css.map": "/goldy_store/static/css/main.69a5209b.css.map",
+    "main.80b45851.js.map": "/goldy_store/static/js/main.80b45851.js.map",
     "787.e9a3519d.chunk.js.map": "/goldy_store/static/js/787.e9a3519d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f3729f0d.css",
-    "static/js/main.f0b6f0fa.js"
+    "static/css/main.69a5209b.css",
+    "static/js/main.80b45851.js"
   ]
 }
