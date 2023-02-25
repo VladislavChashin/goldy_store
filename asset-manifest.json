@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/goldy_store/static/css/main.4bd18a8b.css",
-    "main.js": "/goldy_store/static/js/main.5c350a9a.js",
+    "main.css": "/goldy_store/static/css/main.f3729f0d.css",
+    "main.js": "/goldy_store/static/js/main.f0b6f0fa.js",
     "static/js/787.e9a3519d.chunk.js": "/goldy_store/static/js/787.e9a3519d.chunk.js",
     "static/media/big-ring.png": "/goldy_store/static/media/big-ring.24577535d6650653c842.png",
     "static/media/big-ring_briliant.png": "/goldy_store/static/media/big-ring_briliant.9d7d3a671decb15ef913.png",
@@ -33,12 +33,12 @@
     "static/media/heart_fill.svg": "/goldy_store/static/media/heart_fill.bf92f551b9e7d6ae0c8bf76b8220f181.svg",
     "static/media/chart.svg": "/goldy_store/static/media/chart.26ca8a18192aab7d7a2a3270f1961c0d.svg",
     "static/media/star.svg": "/goldy_store/static/media/star.a6020c2e68a8a03b7e427f6132e76b81.svg",
-    "main.4bd18a8b.css.map": "/goldy_store/static/css/main.4bd18a8b.css.map",
-    "main.5c350a9a.js.map": "/goldy_store/static/js/main.5c350a9a.js.map",
+    "main.f3729f0d.css.map": "/goldy_store/static/css/main.f3729f0d.css.map",
+    "main.f0b6f0fa.js.map": "/goldy_store/static/js/main.f0b6f0fa.js.map",
     "787.e9a3519d.chunk.js.map": "/goldy_store/static/js/787.e9a3519d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4bd18a8b.css",
-    "static/js/main.5c350a9a.js"
+    "static/css/main.f3729f0d.css",
+    "static/js/main.f0b6f0fa.js"
   ]
 }
