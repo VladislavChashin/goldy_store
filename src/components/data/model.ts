@@ -13,3 +13,10 @@ export interface IProduct{
     numSale: string,
 
 }
+
+export interface IArticle{
+    id: number,
+    image: any,
+    date: string,
+    page: string,
+}
