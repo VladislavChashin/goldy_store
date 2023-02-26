@@ -9,34 +9,27 @@ import { useEffect, useState } from 'react'
 
 interface ProductProps{
     productSale: IProduct,
+    state: number,
+    setState: any,
 }
 
-function Product({productSale}: ProductProps){
+function Product({productSale, state, setState}: ProductProps){
     const [image, setImage] = useState(false)
-    const [count, setCount] = useState(0)
    
         const ount = ()=>{
-            setImage(prev => !prev)
             if (image){
-                setCount(count + 1)
-                console.log(count)
-            }else{
-                setCount(count + 1)
-                console.log(count)
+                setState(state - 1)
+             }else{
+                setState(state + 1)
             }
-        }
-
-    
-        
-        
             
-        
+        }
     
     
     return(
         <div className="product">
             <div className="top_info">
-            {productSale.sale ? <p>sale</p> : <span></span>} <span><img src={eyes} alt="" /><img onClick={()=>{ount()}} src={image ? heart_fill_ol: heart_fill} alt="" /></span>
+            {productSale.sale ? <p>sale</p> : <span></span>} <span><img src={eyes} alt="" /><img onClick={()=>{setImage(prev => !prev); ount()}} src={image ? heart_fill_ol: heart_fill} alt="" /></span>
             </div> 
             <div className="image">
                 <img src={productSale.images} alt="" />
@@ -51,10 +44,13 @@ function Product({productSale}: ProductProps){
         </div>
     )
 }
+interface StateProps{
+    state: number,
+    setState: any
+}
 
-export function Sale(){
-    let [count, setCount] = useState(1)
-
+export function Sale({state, setState}: StateProps){
+    const [count, setCount] = useState(1)
     return(
         <div className="sale">
             <div className="sale_wraper">
@@ -72,7 +68,7 @@ export function Sale(){
                     </div>
                 </div>
                 <div className="product_sale">
-                    {product.map(products => (<Product productSale = {products} key={products.id}/>))}
+                    {product.map(products => (<Product productSale = {products} key={products.id} state = {state} setState ={setState}/>))}
                 </div>
             </div>
         </div>
