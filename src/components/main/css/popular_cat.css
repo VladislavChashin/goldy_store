@@ -79,6 +79,12 @@
     padding: 35px 21px 7px;
   }
 }
+@media (max-width: 768px) {
+  .popular .popular_wrap .cards_wrap .cards {
+    height: 150px;
+    padding: 35px 40px 7px;
+  }
+}
 @media (max-width: 425px) {
   .popular .popular_wrap .cards_wrap .cards {
     height: 90px;

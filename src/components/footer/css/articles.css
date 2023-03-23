@@ -55,3 +55,22 @@ footer .article .article_wraper .content .content_wrap :nth-child(3) {
   color: #303030;
   padding: 6px 0 20px;
 }
+@media (max-width: 610px) {
+  footer .article .article_wraper .content .content_wrap{
+    max-width: 300px;
+    overflow: hidden;
+  }
+  footer .article .article_wraper .content .content_wrap img{
+    width: 300px;
+    height: auto;
+  }
+}
+@media (max-width: 444px) {
+  footer .article .article_wraper .content .content_wrap{
+    max-width: 240px;
+  }
+  footer .article .article_wraper .content .content_wrap img{
+    width: 240px;
+    height: auto;
+  }
+}

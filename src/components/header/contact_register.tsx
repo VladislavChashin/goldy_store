@@ -21,11 +21,12 @@ export function Favorite({state, setState}: StateProps){
 
 export function Register({state, setState}: StateProps){
     const [visible, setVisible] = useState(false)
+    const [visClass, setVisClass] = useState('')
 
     return(
     <>  
-        {visible ? <ModalReg state={visible} setState={setVisible}/> : <></>}
-        {visible ? <ModalAuth state={visible} setState={setVisible}/> : <></>}
+        {visClass == 'reg' && visible ? <ModalReg state={visible} setState={setVisible}/> : <></>}
+        {visClass == 'login' && visible ? <ModalAuth state={visible} setState={setVisible}/> : <></>}
         <div className="contact_register">
             <div className="content">
                 <div className="content_contact">
@@ -36,7 +37,7 @@ export function Register({state, setState}: StateProps){
                     <img src={logo} alt=""/>
                 </div>
                 <div className="content_register">
-                    <p><a href="#" onClick={()=>{setVisible(prod => !prod)}}>Вход</a> | <a href="#" onClick={()=>{setVisible(prod => !prod)}}>Регистрация</a></p>
+                    <p><a href="#" onClick={()=>{setVisible(prod => !prod); setVisClass('login')}}>Вход</a> | <a href="#" onClick={()=>{setVisible(prod => !prod); setVisClass('reg')}}>Регистрация</a></p>
                     <div className="icons">
                         <Favorite state={state} setState={setState}/>
                         <a href="#"><img src={chart} alt="sf"/></a>
