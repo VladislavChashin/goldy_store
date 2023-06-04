@@ -1,5 +1,6 @@
 import strelka from './img/svg/strelka.svg'
 import eyes from './img/svg/eyes.svg'
+import eyes_fill from './img/svg/eyes_edit.svg'
 import heart_fill from './img/svg/heart_fill.svg'
 import heart_fill_ol from './img/svg/heart_fill_ol.svg'
 import { product } from '../data/data_productSale'
@@ -15,6 +16,7 @@ interface ProductProps{
 
 function Product({productSale, state, setState}: ProductProps){
     const [image, setImage] = useState(false)
+    const [eyesImage, setEyesImage] = useState(false)
    
         const ount = ()=>{
             if (image){
@@ -27,9 +29,9 @@ function Product({productSale, state, setState}: ProductProps){
     
     
     return(
-        <div className="product">
+        <div className="product" onMouseOut={()=>{setEyesImage(true)}}>
             <div className="top_info">
-            {productSale.sale ? <p>sale</p> : <span></span>} <span><img src={eyes} alt="" /><img onClick={()=>{setImage(prev => !prev); ount()}} src={image ? heart_fill_ol: heart_fill} alt="" /></span>
+                {productSale.sale ? <p>sale</p> : <span></span>} <span><img src={eyesImage ? eyes_fill: eyes} alt="" /><img onClick={()=>{setImage(prev => !prev); ount()}} src={image ? heart_fill_ol: heart_fill} alt="" /></span>
             </div> 
             <div className="image">
                 <img src={productSale.images} alt="" />

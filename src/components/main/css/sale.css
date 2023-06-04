@@ -194,6 +194,9 @@
       -ms-flex-direction: column-reverse;
           flex-direction: column-reverse;
 }
+.sale .sale_wraper .product_sale .product .top_info span img {
+  cursor: pointer;
+}
 @media (max-width: 428px) {
   .sale .sale_wraper .product_sale .product .top_info span img {
     max-width: 18px;
